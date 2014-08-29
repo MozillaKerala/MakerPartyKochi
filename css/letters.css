@@ -1,6 +1,6 @@
 .text-mp div {
 	display: inline-block;
-	font: 300 16px Lato,"Open Sans",sans-serif
+	font: 300 50px Lato,"Open Sans",sans-serif
 }
 
 .wrapper{
@@ -37,7 +37,7 @@
 
 .parallelogram-letter-inv{
 	width: 25px;
-	-webkit-transform: skew(-20deg); 
+	-webkit-transform: skew(-15deg); 
 	-moz-transform: skew(-20deg); 
 	-o-transform: skew(-20deg);
 }
@@ -53,8 +53,8 @@
 	background:transparent;
 }
 .circuar-letter{
-	width: 30px; 
-	height: 20px; 
+	width: 65px; 
+	height: 59px; 
 	background: transparent; 
 	border: 20px solid #00B0B7;
 	border-left-color: transparent;
@@ -82,17 +82,23 @@
 /* Letter Specific Styles */
 
 .M2, .A1{
+	position: relative;
 	border-right: 3px solid #FFF;
-	z-index: 1;
+	z-index: 18;
 }
 
+
+.M3 {
+	position: relative;
+	z-index: 15;
+}
 .yellow .M2, .yellow .A1{
 	border-right: 3px solid #00B0B7;
 }
 
 .A3{
 	position: absolute;
-	bottom: 15;
+	top: 56px;
 	left: 0;
 }
 .K{
@@ -100,16 +106,16 @@
 }
 .K2{
 	position: absolute;
-	height: 65px;
-	bottom: 35px;
-	left: 25px;
+	height: 50px;
+	bottom: 61px;
+	left: 30px;
 	-webkit-transform: skew(-35deg); 
 	-moz-transform: skew(-35deg); 
 	-o-transform: skew(-35deg);
 }
 .K3{
 	position: absolute;
-	bottom: 0px;
+	bottom: 11px;
 	left: 30px;
 	height: 50px;
 	-webkit-transform: skew(35deg); 
@@ -192,7 +198,7 @@
 }
 .T2{
 	position: absolute;
-	left: 20px;
+	left: 23px;
 }
 
 
@@ -205,7 +211,7 @@
 	height:60px; 
 	position: absolute;
 	top: 0;
-	left: 5px;
+	left: 4px;
 	-webkit-transform: skew(30deg); 
 	-moz-transform: skew(25deg); 
 	-o-transform: skew(30deg);
@@ -215,7 +221,7 @@
 	height:60px; 
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 36px;
 	-webkit-transform: skew(-30deg); 
 	-moz-transform: skew(-25deg); 
 	-o-transform: skew(-30deg);
